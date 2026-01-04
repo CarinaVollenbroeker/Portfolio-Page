@@ -4084,46 +4084,6 @@ ul.icons.contact-info li::before {
 }
 
 
-/* Contact info – clean hanging indent with icon gap */
-ul.icons.contact-info li {
-  display: block !important;
-
-  padding-left: 5em !important;   /* Textstart */
-  text-indent: -5.5em !important;   /* erste Zeile zurück */
-
-  margin-bottom: 1em !important;
-}
-
-ul.icons.contact-info li::before {
-  width: 2.8em !important;             /* Icon-Spalte */
-  text-align: center;
-}
-
-
-/* Contact info – aligned text block */
-ul.icons.contact-info li {
-  display: block !important;
-  margin: 0 0 1em 0 !important;
-}
-
-/* feste Icon-Spalte */
-ul.icons.contact-info li::before {
-  width: 3em !important;
-  text-align: center;
-}
-
-/* Text startet immer gleich */
-ul.icons.contact-info li,
-ul.icons.contact-info li > a,
-ul.icons.contact-info li > span.addr {
-  display: block;
-  margin-left: 5.5em;     /* Textstart (Icon-Spalte + Abstand) */
-}
-
-/* Mehrzeilige Adresse bleibt exakt untereinander */
-ul.icons.contact-info li > span.addr {
-  line-height: 1.6;
-}
 
 
 
