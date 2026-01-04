@@ -4088,16 +4088,17 @@ ul.icons.contact-info li::before {
 ul.icons.contact-info li {
   display: block !important;
 
-  padding-left: 5.5em !important;   /* Textstart */
+  padding-left: 5em !important;   /* Textstart */
   text-indent: -5.5em !important;   /* erste Zeile zurück */
 
   margin-bottom: 1em !important;
 }
 
 ul.icons.contact-info li::before {
-  width: 3em !important;             /* Icon-Spalte */
+  width: 2.8em !important;             /* Icon-Spalte */
   text-align: center;
 }
+
 
 
 
