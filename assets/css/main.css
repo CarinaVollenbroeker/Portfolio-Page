@@ -4037,3 +4037,16 @@ input, select, textarea {
   width: 2em;
   text-align: center;
 }
+
+/* Contact info spacing */
+.icons.contact-info li {
+  display: block;
+  padding-left: 3em;     /* Textstart */
+  text-indent: -3em;     /* Hanging indent */
+  margin-bottom: 0.8em;  /* Abstand zwischen den Einträgen */
+}
+
+.icons.contact-info li::before {
+  width: 2em;
+  text-align: center;
+}
