@@ -4015,3 +4015,14 @@ input, select, textarea {
   width: 1.5em;          /* Icon-Breite */
   text-align: center;
 }
+
+/* Contact info: fixed icon column */
+.icons.contact-info li {
+  display: block;
+  padding-left: 3em;        /* Abstand Text ←→ Icon */
+}
+
+.icons.contact-info li::before {
+  width: 2em;               /* feste Icon-Spalte */
+  text-align: center;
+}
