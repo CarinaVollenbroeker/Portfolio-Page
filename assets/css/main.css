@@ -4084,6 +4084,20 @@ ul.icons.contact-info li::before {
 }
 
 
+/* Contact info – clean hanging indent with icon gap */
+ul.icons.contact-info li {
+  display: block !important;
+
+  padding-left: 5.5em !important;   /* Textstart */
+  text-indent: -5.5em !important;   /* erste Zeile zurück */
+
+  margin-bottom: 1em !important;
+}
+
+ul.icons.contact-info li::before {
+  width: 3em !important;             /* Icon-Spalte */
+  text-align: center;
+}
 
 
 
