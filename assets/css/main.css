@@ -4079,7 +4079,8 @@ ul.icons.contact-info li {
 }
 
 ul.icons.contact-info li::before {
-  width: 2em !important;             /* feste Icon-Spalte */
+  width: 0.1em !important;             /* feste Icon-Spalte */
   text-align: center;
 }
+
 
