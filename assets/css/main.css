@@ -4072,16 +4072,17 @@ ul.icons.contact-info li::before {
 ul.icons.contact-info li {
   display: block !important;
 
-  padding-left: 1em !important;   /* Start aller Zeilen */
-  text-indent: -1em !important;   /* Erste Zeile zurückziehen */
+  padding-left: 4em !important;   /* Start aller Zeilen */
+  text-indent: -4em !important;   /* Erste Zeile zurückziehen */
 
   margin-bottom: 1em !important;
 }
 
 ul.icons.contact-info li::before {
-  width: 1em !important;             /* feste Icon-Spalte */
+  width: 4em !important;             /* feste Icon-Spalte */
   text-align: center;
 }
+
 
 
 
