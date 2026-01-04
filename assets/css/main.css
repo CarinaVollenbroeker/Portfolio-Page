@@ -4026,3 +4026,14 @@ input, select, textarea {
   width: 2em;               /* feste Icon-Spalte */
   text-align: center;
 }
+
+.icons.contact-info li {
+  display: block;
+  padding-left: 3em;     /* Textstart */
+  text-indent: -3em;     /* erste Zeile nach links ziehen */
+}
+
+.icons.contact-info li::before {
+  width: 2em;
+  text-align: center;
+}
