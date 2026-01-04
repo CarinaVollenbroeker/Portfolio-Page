@@ -4072,8 +4072,8 @@ ul.icons.contact-info li::before {
 ul.icons.contact-info li {
   display: block !important;
 
-  padding-left: 2.8em !important;   /* Start aller Zeilen */
-  text-indent: -2.8em !important;   /* Erste Zeile zurückziehen */
+  padding-left: 0.1em !important;   /* Start aller Zeilen */
+  text-indent: -0.1em !important;   /* Erste Zeile zurückziehen */
 
   margin-bottom: 1em !important;
 }
@@ -4082,3 +4082,4 @@ ul.icons.contact-info li::before {
   width: 2em !important;             /* feste Icon-Spalte */
   text-align: center;
 }
+
