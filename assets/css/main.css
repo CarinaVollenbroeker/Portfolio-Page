@@ -4004,3 +4004,14 @@ input, select, textarea {
   padding-left: 2.2em;
   margin-bottom: 0.4em;
 }
+
+.icons.contact-info li {
+  display: block;
+  padding-left: 2.2em;   /* Platz für das Icon */
+}
+
+.icons.contact-info li::before {
+  left: 0;
+  width: 1.5em;          /* Icon-Breite */
+  text-align: center;
+}
