@@ -4214,3 +4214,17 @@ ul.icons.contact-info li::before {
   border-top: 2px solid rgba(255,255,255,0.35);
 }
 
+/* Stars styling */
+.stars {
+  display: inline-flex;
+  gap: 0.15rem;
+  font-size: 1.2rem;
+}
+
+.star {
+  color: rgba(255,255,255,0.35); /* hellgrau */
+}
+
+.star.filled {
+  color: #ffffff; /* volle Sterne */
+}
