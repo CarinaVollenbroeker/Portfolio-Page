@@ -4203,3 +4203,14 @@ ul.icons.contact-info li::before {
 .wrapper.style1 .icon.major.style1 { color: #7a3b3b !important; } /* Heart */
 .wrapper.style1 .icon.major.style2 { color: #2f6f73 !important; } /* Music */
 .wrapper.style1 .icon.major.style3 { color: #4f6b3a !important; } /* Nature */
+
+/* Remove default hr, but keep the custom quote divider */
+.wrapper.style1 hr { display: none !important; }
+.wrapper.style1 hr.quote-divider {
+  display: block !important;
+  width: 4em;
+  margin: 2em auto 1.5em;
+  border: none;
+  border-top: 2px solid rgba(255,255,255,0.35);
+}
+
