@@ -4175,4 +4175,9 @@ ul.icons.contact-info li::before {
 }
 
 
+/* Remove default header.major divider */
+.wrapper.style1 header.major::before,
+.wrapper.style1 header.major::after {
+  display: none !important;
+}
 
