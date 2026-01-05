@@ -4181,3 +4181,7 @@ ul.icons.contact-info li::before {
   display: none !important;
 }
 
+.wrapper.style1 .icon.major.style1 { color: #7a3b3b; } /* Heart */
+.wrapper.style1 .icon.major.style2 { color: #2f6f73; } /* Music */
+.wrapper.style1 .icon.major.style3 { color: #4f6b3a; } /* Nature */
+
