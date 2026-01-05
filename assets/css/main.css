@@ -4168,6 +4168,11 @@ ul.icons.contact-info li::before {
   color: #4a3f33;
 }
 
+/* Force white text everywhere in style1 */
+.wrapper.style1,
+.wrapper.style1 * {
+  color: #f5f5f5 !important;
+}
 
 
 
