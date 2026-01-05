@@ -2818,8 +2818,16 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-  background-color: #9f9583;   /* dunkler Sand / Beige */
+  background-color: #8f8572;   /* dunkler Sand / Beige */
   color: #ffffff;              /* weiße Schrift */
+}
+
+.wrapper.style1 h1,
+.wrapper.style1 h2,
+.wrapper.style1 h3,
+.wrapper.style1 p,
+.wrapper.style1 a {
+  color: #f5f5f5;
 }
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -4153,6 +4161,7 @@ ul.icons.contact-info li::before {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
