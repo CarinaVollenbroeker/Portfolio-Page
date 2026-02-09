@@ -4632,3 +4632,18 @@ section h4::after {
 #footer {
   background: #2f3b46;
 }
+
+/* Ruhigerer Sand/Greige */
+.wrapper.style1 {
+  background-color: #b1aa9c;  /* stone/greige */
+}
+
+.wrapper.style1 {
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.25);
+}
+
+/* Fotos etwas ruhiger machen (nicht komplett s/w) */
+.image img, .spotlight img {
+  filter: saturate(0.75) contrast(1.02) brightness(0.98);
+}
+
