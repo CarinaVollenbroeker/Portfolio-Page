@@ -4628,3 +4628,7 @@ section h4::after {
   margin-bottom: 0.4em;
 }
 
+/* Footer wieder im Grau-Blau */
+#footer {
+  background: #2f3b46;
+}
