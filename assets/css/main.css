@@ -4647,3 +4647,35 @@ section h4::after {
   filter: saturate(0.75) contrast(1.02) brightness(0.98);
 }
 
+/* ===== Skills Section im Sand/Greige-Stil ===== */
+section.skills {
+  background-color: #b1aa9c;        /* gleiche Sandfarbe */
+  color: rgba(255,255,255,0.92);    /* helle Schrift */
+  padding: 4em 0;
+}
+
+/* Überschrift */
+section.skills h2 {
+  color: #ffffff;
+}
+
+/* Skill Cards ruhiger auf Sand */
+.skills .skill-card {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.18);
+  box-shadow: none;
+}
+
+/* Text in Cards */
+.skills .skill-card p {
+  color: rgba(255,255,255,0.85);
+}
+
+/* Sterne heller */
+.skills .star {
+  color: rgba(255,255,255,0.35);
+}
+
+.skills .star.filled {
+  color: #ffffff;
+}
