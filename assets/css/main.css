@@ -4703,3 +4703,8 @@ section.skills h2 {
 body {
   background-color: #f4f1eb;
 }
+
+/* Listenfarbe an normalen Text anpassen */
+ul li {
+  color: rgba(0,0,0,0.65);
+}
