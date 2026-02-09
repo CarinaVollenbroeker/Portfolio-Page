@@ -4679,3 +4679,22 @@ section.skills h2 {
 .skills .star.filled {
   color: #ffffff;
 }
+
+/* Skills-Karten ohne Kästen */
+.skills .skill-card {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 1.5em 1em;
+}
+
+/* Hover-Effekt auch entfernen */
+.skills .skill-card:hover {
+  background: transparent;
+  box-shadow: none;
+  transform: none;
+}
+
+.skills-grid {
+  gap: 3em;   /* mehr Abstand zwischen Skills */
+}
