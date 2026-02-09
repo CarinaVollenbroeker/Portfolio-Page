@@ -4698,3 +4698,8 @@ section.skills h2 {
 .skills-grid {
   gap: 3em;   /* mehr Abstand zwischen Skills */
 }
+
+/* Globaler Seitenhintergrund – sehr leichtes Beige */
+body {
+  background-color: #f4f1eb;
+}
