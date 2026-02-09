@@ -4242,4 +4242,38 @@ section.skills {
 }
 
 
+/* ===== Audio / Music Section Improvements ===== */
+
+/* Titel der Stücke (z.B. Elowen) */
+.audio-title {
+  font-size: 1.35em;
+  font-weight: 600;
+  margin-bottom: 0.4em;
+}
+
+/* Beschreibungstext unter Player */
+.audio-description {
+  font-size: 0.95em;
+  color: #7a7a7a;
+  margin-top: 0.4em;
+  line-height: 1.5;
+}
+
+/* Block pro Musikstück */
+.audio-block {
+  margin-bottom: 2em;
+  border-left: 3px solid #d8d2c7;
+  padding-left: 1em;
+}
+
+/* Audio Player Breite */
+audio {
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Abschnittsüberschrift ruhiger */
+h2 {
+  letter-spacing: 0.12em;
+}
 
