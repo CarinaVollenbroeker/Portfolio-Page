@@ -4708,3 +4708,8 @@ body {
 ul li {
   color: rgba(0,0,0,0.65);
 }
+
+.wrapper.style1,
+.wrapper.style3 {
+  background-color: transparent;
+}
