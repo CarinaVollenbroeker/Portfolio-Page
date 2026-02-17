@@ -4787,3 +4787,7 @@ ul li {
 body.is-menu-visible #menu {
     background-color: #2f9e95 !important;
 }
+
+#one.wrapper.style1 {
+    background-color: #a79f90;
+}
