@@ -4810,3 +4810,7 @@ body.is-menu-visible #menu {
 .skills {
     background-color: #a79f90;
 }
+
+#page-wrapper section.skills {
+  background-color: #a79f90 !important;
+}
