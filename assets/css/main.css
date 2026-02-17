@@ -4823,4 +4823,15 @@ body.is-menu-visible #menu {
   padding: 4em 0;
 }
 
-#page-wrapper section.skills { outline: 5px solid red !important; }
+/* Skills: gleicher Sandton wie Intro */
+#page-wrapper section.skills {
+  background: #a79f90 !important;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  padding: 4em 0;
+}
+
+#page-wrapper section.skills .skills-grid,
+#page-wrapper section.skills .inner {
+  background: transparent !important;
+}
