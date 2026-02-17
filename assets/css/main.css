@@ -4847,3 +4847,7 @@ body.is-menu-visible #menu {
     background-color: #a79f90 !important;
 }
 
+#banner p {
+    color: rgba(255,255,255,0.92) !important;
+}
+
