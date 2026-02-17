@@ -4783,3 +4783,7 @@ ul li {
 #menu {
     background-color: #2f9e95;
 }
+
+body.is-menu-visible #menu {
+    background-color: #2f9e95 !important;
+}
