@@ -4717,9 +4717,14 @@ ul li {
     color: #9fb3c8;
 }
 
-/* Leicht beiger Hintergrund statt weiß */
-.wrapper.style1,
-.wrapper.style2 {
+/* nur helle Bereiche leicht beige */
+.wrapper.style1 {
     background-color: #f4f1eb;
 }
 
+/* Footer-Text gleiche Farbe wie Icons */
+#footer .copyright,
+#footer .copyright li,
+#footer .copyright a {
+    color: rgba(255,255,255,0.65) !important;
+}
