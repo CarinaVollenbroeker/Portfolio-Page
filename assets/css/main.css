@@ -4851,3 +4851,21 @@ body.is-menu-visible #menu {
     color: rgba(255,255,255,0.92) !important;
 }
 
+
+/* Skills: exakt gleiche Sandfläche ohne Template-Overlay */
+section.skills {
+  background-color: #a79f90 !important;
+}
+
+/* Falls ein Overlay/Pseudo-Element drüber liegt */
+section.skills:before,
+section.skills:after {
+  background: transparent !important;
+  opacity: 1 !important;
+}
+
+section.skills .inner,
+section.skills .skills-grid,
+section.skills .skill-card {
+  background: transparent !important;
+}
