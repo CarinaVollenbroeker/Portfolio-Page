@@ -4792,3 +4792,17 @@ body.is-menu-visible #menu {
     background-color: #a79a86;
 }
 
+
+/* Spotlight-Buttons immer anzeigen */
+.spotlight .actions {
+  display: block !important;
+  margin-top: 1.5em;
+}
+
+.spotlight .actions .button {
+  display: inline-block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  position: relative;
+  z-index: 2;
+}
