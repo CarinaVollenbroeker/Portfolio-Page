@@ -4838,7 +4838,7 @@ body.is-menu-visible #menu {
 
 /* Trennlinie zwischen Intro und Spotlight */
 .spotlight:first-of-type {
-    border-top: 3mm solid rgba(0,0,0,0.15);
+    border-top: 1.5mm solid rgba(0,0,0,0.15);
 }
 
 
@@ -4867,3 +4867,4 @@ section.skills .skill-card {
 :root { --sand: #a79a86; }
 #one.wrapper.style1 { background: var(--sand) !important; }
 section.skills { background: var(--sand) !important; }
+
