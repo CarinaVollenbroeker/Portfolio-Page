@@ -4854,18 +4854,16 @@ body.is-menu-visible #menu {
 
 /* Skills: exakt gleiche Sandfläche ohne Template-Overlay */
 section.skills {
-  background-color: #a79f90 !important;
+  background-color: #a79a86 !important;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  padding: 4em 0;
 }
 
-/* Falls ein Overlay/Pseudo-Element drüber liegt */
-section.skills:before,
-section.skills:after {
-  background: transparent !important;
-  opacity: 1 !important;
-}
-
-section.skills .inner,
-section.skills .skills-grid,
 section.skills .skill-card {
   background: transparent !important;
 }
+
+:root { --sand: #a79a86; }
+#one.wrapper.style1 { background: var(--sand) !important; }
+section.skills { background: var(--sand) !important; }
