@@ -4806,3 +4806,7 @@ body.is-menu-visible #menu {
   position: relative;
   z-index: 2;
 }
+
+.skills {
+    background-color: #a79f90;
+}
