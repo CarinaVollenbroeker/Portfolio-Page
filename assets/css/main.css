@@ -4737,3 +4737,29 @@ ul li {
 .wrapper.beige {
   background-color: #f7f5f1;
 }
+
+/* Audio-Blocks wärmer (passt zu beige Sections) */
+.wrapper.beige .audio-block {
+  background: rgba(255, 255, 255, 0.45);   /* leicht "cremig" statt grau */
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-left: 3px solid rgba(0, 0, 0, 0.10);
+  border-radius: 8px;
+  padding: 1.1em 1.2em;
+}
+
+/* Titel etwas kräftiger */
+.wrapper.beige .audio-title {
+  margin: 0 0 0.4em 0;
+}
+
+/* Beschreibung: weiches Grau */
+.wrapper.beige .audio-description {
+  color: rgba(0, 0, 0, 0.55);
+  margin-top: 0.7em;
+}
+
+/* Player optisch ruhig */
+.wrapper.beige audio {
+  width: 100%;
+  max-width: 650px;
+}
