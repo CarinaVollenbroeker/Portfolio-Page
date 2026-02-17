@@ -4767,3 +4767,15 @@ ul li {
 #header {
     background-color: #36424c;
 }
+
+#menu {
+    color: rgba(255,255,255,0.9);
+}
+
+#menu a {
+    color: rgba(255,255,255,0.9);
+}
+
+#menu a:hover {
+    color: white;
+}
