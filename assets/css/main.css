@@ -4814,3 +4814,11 @@ body.is-menu-visible #menu {
 #page-wrapper section.skills {
   background-color: #a79f90 !important;
 }
+
+/* Skills-Bereich in Sandfarbe (volle Breite) */
+#page-wrapper section.skills {
+  background-color: #a79f90 !important;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  padding: 4em 0;
+}
