@@ -4822,3 +4822,5 @@ body.is-menu-visible #menu {
   margin-left: calc(50% - 50vw);
   padding: 4em 0;
 }
+
+#page-wrapper section.skills { outline: 5px solid red !important; }
