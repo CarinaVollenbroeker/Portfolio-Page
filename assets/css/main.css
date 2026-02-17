@@ -4835,3 +4835,8 @@ body.is-menu-visible #menu {
 #page-wrapper section.skills .inner {
   background: transparent !important;
 }
+
+/* Trennlinie zwischen Intro und Spotlight */
+.spotlight:first-of-type {
+    border-top: 1px solid rgba(0,0,0,0.15);
+}
