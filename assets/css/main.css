@@ -4779,3 +4779,7 @@ ul li {
 #menu a:hover {
     color: white;
 }
+
+#menu {
+    background-color: #2f9e95;
+}
